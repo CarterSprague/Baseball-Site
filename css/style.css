@@ -67,4 +67,12 @@ img {
 #positions {
   border: 3px solid gold;
 }
+.flex-row {
+  display: flex;
+  gap: 16px;
+}
+
+.flex-row .card {
+  flex: 1;
+}
 
