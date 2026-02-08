@@ -38,3 +38,33 @@ img {
   height: auto;
   border-radius: 8px;
 }
+/* =========================
+   Classes (reused styles)
+   ========================= */
+
+.card {
+  background-color: white;
+  color: #111;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 12px;
+}
+
+.nav-links a {
+  font-weight: bold;
+}
+
+/* =========================
+   IDs (unique sections)
+   ========================= */
+
+#site-header {
+  background-color: #111;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+#positions {
+  border: 3px solid gold;
+}
+
