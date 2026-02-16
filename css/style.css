@@ -1,12 +1,10 @@
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: peru;
+  background-color: #1b263b; 
   color: white;
   line-height: 1.6;
 }
-
 
 header,
 main,
@@ -16,31 +14,9 @@ footer {
   padding: 16px;
 }
 
-
 h1, h2, h3 {
   line-height: 1.2;
 }
-
-
-nav a {
-  text-decoration: none;
-  color: black;
-  margin-right: 12px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-/* =========================
-   Classes (reused styles)
-   ========================= */
 
 .card {
   background-color: white;
@@ -50,16 +26,9 @@ img {
   border-radius: 12px;
 }
 
-.nav-links a {
-  font-weight: bold;
-}
-
-/* =========================
-   IDs (unique sections)
-   ========================= */
-
-#site-header {
-  background-color: #111;
+#site-header,
+#page2-header {
+  background-color: #0d1b2a;
   padding: 16px;
   border-radius: 12px;
 }
@@ -67,6 +36,13 @@ img {
 #positions {
   border: 3px solid gold;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
 .flex-row {
   display: flex;
   gap: 16px;
@@ -76,3 +52,9 @@ img {
   flex: 1;
 }
 
+/* Responsive Media Query */
+@media (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+  }
+}
