@@ -3,12 +3,33 @@
 
 <head>
   <title>Baseball Basics</title>
+<link 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
   <link rel="stylesheet" href="css/style.css">
-</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Baseball Site</a>
 
-<body>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <header id="site-header">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
     <h1>Baseball Basics</h1>
     <p>This site teaches the basics of baseball, including how the game is played and the different positions on the field.</p>
   </header>
@@ -47,8 +68,14 @@
         <li>The player crosses home plate to score a run.</li>
       </ol>
 
-      <img src="baseball.webp"
-           alt="Baseball stadium at night with bright stadium lights shining on the field and players">
+      <h2 class="text-center my-4">Baseball Stadium Image</h2>
+
+<div class="container my-4">
+  <div class="col-md-4 mb-4">
+  <img src="Baseball.webp" class="img-fluid rounded shadow" alt="Baseball 1">
+
+</div>
+
     </section>
 
   </main>
@@ -56,9 +83,11 @@
   <footer>
     <p>
       Read more about advanced statistics on the
-      <a href="page2.html">Baseball Statistics Explained page</a>.
+      <a href="page2.html" class="btn btn-primary mt-3">Advanced Statistics Page</a>
     </p>
   </footer>
+
+  </div>
 
 </body>
 </html>
